@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mapasakatan *.css
+recursive-include mapasakatan *.csv
+recursive-include mapasakatan *.html
+recursive-include mapasakatan *.ico
+recursive-include mapasakatan *.js
+recursive-include mapasakatan *.json
+recursive-include mapasakatan *.md
+recursive-include mapasakatan *.png
+recursive-include mapasakatan *.py
+recursive-include mapasakatan *.svg
+recursive-include mapasakatan *.txt
+recursive-exclude mapasakatan *.pyc
